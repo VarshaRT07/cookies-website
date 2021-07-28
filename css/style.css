@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    font-family: 'Acme', sans-serif;
+}
+
+.container-fluid{
+    font-size: 1.5rem;
+    background-color: #FFE194;
+    color: rgb(15, 14, 14);
+    
+}
+
+/* Navigation */
+
+#cookiee{
+    width: 300px;
+    height: 180px;
+}
+
+.nav-item{
+    padding: 0px 30px;
+    width: 100%;
+}
+.searchbar{
+    text-align: right;
+    
+}
+
+
+/* TItle */
+.heading{
+   background-color: #EFEFEF;
+}
+.content{
+    padding: 3rem 4rem;
+}
+.title-image{
+    width: 100%;
+    height: 100%;
+}
+.big-heading{
+    font-size: 5rem;
+    width: 70%;
+    color: rgb(78, 38, 15);
+    
+}
+.small-heading{
+    padding-top: 20px;
+    font-size: 3rem;
+    width: 70%;
+    color: rgb(224, 100, 28);
+}
+.btnsearch{
+    position: absolute;
+    top: 80px;
+    right: auto;
+}
+.form-control{
+    height: 2.5rem;
+
+}
+.explore{
+    height: 3.2rem;
+    width: 300px;
+    font-size: 28px;
+    padding-bottom: 30px;
+}
+
+/* card */
+.images{
+    padding: 40px;
+    padding-bottom: 70px;
+}
+.box{
+    padding-bottom: 30px;
+}
+
+#features{
+    padding: 5% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box{
+    font-weight: 200px;
+    padding-left: 2rem;
+    text-align: center;
+}
+.feat-img{
+    padding-bottom: 5%;
+}
+
+@media  (max-width:1200px){
+        .title-image{
+            padding-top: 50px;
+            width:100% ;
+        }
+        .big-heading{
+            font-size: 3rem;
+            text-align: center;
+            width: 100%;
+        }
+        .small-heading{
+            font-size: 2.2rem;
+            text-align: center;
+            width: 100%;
+        }
+    }
+ @media  (max-width:800px){
+     .title-image{
+        margin: 0%;
+         width:100% ;
+         height: 100%;
+
+     }
+     .big-heading{
+         font-size: 3rem;
+         text-align: center;
+         width: 100%;
+     }
+     .explore{
+        margin-left: 50px;
+    }
+    
+    }
+@media  (max-width:500px){
+    .title-image{
+        padding-top: 50px;
+        margin: 0;
+        width:100% ;
+        background-image: none;
+    }
+    
+    .big-heading{
+        font-size: 3rem;
+        text-align: center;
+        width: 100%;
+    }
+
+
+
+}

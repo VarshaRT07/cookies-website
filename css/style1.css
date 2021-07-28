@@ -1,0 +1,63 @@
+body{
+    font-family: 'Merienda', cursive;
+    box-sizing: border-box;
+}
+.titletop{
+    padding: 4rem 0rem;
+    font-size: 80px;
+    color: #4F0E0E;
+}
+.head{ 
+    border: none;
+    margin: 0;
+    background-color: #FFE194;
+    
+}
+/* details */
+#details{
+    padding: 4rem 0rem;
+}
+.card-img-top{
+    padding: 2rem;
+    width: 450px;
+    height: 400px;
+}
+.starss{
+        font-size: 2rem;
+        color: rgba(236, 163, 5, 0.911);
+}
+h3{
+    font-weight: bolder;
+
+}
+
+@media  (max-width:1000px){
+    body{
+        text-align: center;
+    }
+    .logo{
+        transform: translate(50%);
+    }
+    .titletop{
+       display: none;
+    }
+    .card-img-top{
+        width: 400px;
+        transform:translate(5%);
+    }
+    .products{
+        background-color:#EFEFEF;
+        border: 1px solid rgb(161, 63, 63);
+        border-left: none;
+        border-right:none ;
+    }
+    
+}
+@media  (max-width:600px){
+    .logo{
+        transform: translate(0%);
+    }
+    .titletop{
+       display: none;
+    }
+}
