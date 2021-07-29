@@ -1,7 +1,11 @@
+html{
+    overflow-x: hidden;
+}
 body{
     margin: 0;
     font-family: 'Acme', sans-serif;
     text-decoration: none;
+    overflow-x: hidden;
 
 }
 
@@ -134,14 +138,17 @@ body{
         width:100% ;
         background-image: none;
     }
-    
+    .btnsearch{
+        position: relative;
+        top: -0px;
+    }
     .big-heading{
         font-size: 3rem;
         text-align: center;
         width: 100%;
     }
     .explore{
-        margin-left: 0px;
+        margin-left: -21px;
     }
 
 
