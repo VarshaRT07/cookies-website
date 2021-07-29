@@ -18,7 +18,7 @@ body{
 }
 
 .nav-item{
-    padding: 0px 30px;
+    padding: 0px 20px;
     width: 100%;
 }
 .searchbar{
@@ -81,7 +81,9 @@ body{
     position: relative;
     z-index: 1;
 }
-
+.card-body{
+    text-align: center;
+}
 .feature-box{
     font-weight: 200px;
     padding-left: 2rem;
@@ -91,9 +93,8 @@ body{
     padding-bottom: 5%;
 }
 
-@media  (max-width:1200px){
+@media  (max-width:1500px){
         .title-image{
-            padding-top: 50px;
             width:100% ;
         }
         .big-heading{
@@ -137,7 +138,9 @@ body{
         text-align: center;
         width: 100%;
     }
-
+    .explore{
+        margin-left: 0px;
+    }
 
 
 }
