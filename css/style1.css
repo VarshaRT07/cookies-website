@@ -20,6 +20,7 @@ body{
 }
 .card-img-top{
     padding: 2rem;
+    padding-left: 0px;
     width: 450px;
     height: 400px;
 }
